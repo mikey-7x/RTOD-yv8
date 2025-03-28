@@ -1,29 +1,69 @@
 # RTOD-yv8
-In this project I make a real time object detection using yolov8 (RTOD-yv8) and ip camera on android
+# **Real-Time Object Detection using YOLOv8 (RTOD-yv8) & IP Camera on Android**  
 
-## Features
-- Automatic installation script (`setup_yolo.sh`)
-- Real-time detection script (`mikey.sh`)
-- Flask-based live video streaming
-- YOLOv8 model integration
+This project enables **real-time object detection using YOLOv8** on an Android phone with an IP camera. It sets up an environment in **Linux (inside Termux)** and provides an easy-to-use interface for real-time detection and streaming via a web browser.  
 
-## Usage
-1. Run `setup_yolo.sh` to set up the environment.
-2. Start detection with `mikey.sh`, enter your camera IP, and view the stream at:
- http://your-ip:5050/video_feed
+## **✨ Features**  
+✔ **Automatic Installation Script**: [`yolov8.sh`](https://github.com/mikey-7x/RTOD-yv8/blob/main/yolov8.sh) (Installs all necessary dependencies)  
+✔ **Real-Time Object Detection Script**: [`mikey.sh`](https://github.com/mikey-7x/RTOD-yv8/blob/main/mikey.sh) (Starts detection and live streaming)  
+✔ **Flask-Based Live Streaming**: View detected objects in any web browser  
+✔ **YOLOv8 Model Integration**: Uses `yolov8n.pt` for object detection  
+✔ **Works on Android** via Termux & a Linux distribution  
 
-#steps to configure 
+---  
 
-After installation of termux from fdroid we require install any one linux distribution through termux on your android phone 
+## **🚀 Setup & Installation**  
 
-Then open your linux os on android and run run first "yolo.sh" script which install the all necessary package in vertual environment which protects your other packages to be breaked 
+### **Step 1: Install Termux & Linux Distribution**  
+1. **Download Termux** from [F-Droid](https://f-droid.org/en/packages/com.termux/).  
+2. Install a Linux distribution inside Termux (**Ubuntu, Kali, etc.**) using `proot-distro` or manual installation.  
+3. Start your Linux environment inside Termux.  
 
-Then run "mikey.sh" script to start Real time object detection in which it takes ip address of webcame (which you can bring from ip webcame app available on playstore)
+### **Step 2: Run the Setup Script**  
+Once inside your Linux OS, open a terminal and run the following command:  
+```sh
+bash yolov8.sh
+```
+This script will:  
+✔ Update & upgrade system packages  
+✔ Install Python, dependencies, and necessary libraries  
+✔ Set up a **virtual environment** to protect system packages  
+✔ Download the YOLOv8 model (`yolov8n.pt`)  
 
-After putting ip address it starts to upload detected output on http link 
+### **Step 3: Start Object Detection**  
+To begin real-time object detection, run:  
+```sh
+bash mikey.sh
+```
+- It will **ask for your IP camera address** (which you get from the IP Webcam app on Play Store).  
+- After entering the IP, it will start detecting objects in real time.  
 
-To watch this output type "your ip address:5050/video_feed" on your browser make sure ip address is correct to implement on this link to be type in browser.
+---
 
-For example my ip address of camera webcame is   "http://10.115.163.241:8080" so, after running script on linux type "http://10.115.163.241:5050/video_feed" on your browser to see detected output 
+## **🎥 Viewing the Live Detection Output**  
 
-That project's real time object detection is may be  slow it's depends on your android phone, internet speed,also the path of serving/taking detection is long so,it is one reason for slow output/detection 
+Once the script is running, open your web browser and **type the following URL**:  
+```
+http://your-ip:5050/video_feed
+```
+For example, if your IP **camera stream is**:  
+```
+http://10.115.163.241:8080
+```
+Then to **view the detected output**, go to:  
+```
+http://10.115.163.241:5050/video_feed
+```
+Make sure your **IP is correct** when typing the link in the browser.  
+
+---
+
+## **⚡ Performance Considerations**  
+- Detection speed **depends on your Android device’s hardware**.  
+- **Internet speed & network latency** can impact real-time processing.  
+- The **path of processing (IP Camera → Linux → Browser)** introduces some delay.  
+
+---
+
+## **📜 Credits**  
+Developed by **[mikey-7x](https://github.com/mikey-7x)** 🚀🔥  
