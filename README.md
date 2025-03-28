@@ -1,5 +1,18 @@
 # RTOD-yv8
-In this project I make a real time object detection using yolov8 (RTOD-yv8) on android with termux 
+In this project I make a real time object detection using yolov8 (RTOD-yv8) and ip camera on android
+
+## Features
+- Automatic installation script (`setup_yolo.sh`)
+- Real-time detection script (`mikey.sh`)
+- Flask-based live video streaming
+- YOLOv8 model integration
+
+## Usage
+1. Run `setup_yolo.sh` to set up the environment.
+2. Start detection with `mikey.sh`, enter your camera IP, and view the stream at:
+ http://your-ip:5050/video_feed
+
+#steps to configure 
 
 After installation of termux from fdroid we require install any one linux distribution through termux on your android phone 
 
@@ -12,4 +25,5 @@ After putting ip address it starts to upload detected output on http link
 To watch this output type "your ip address:5050/video_feed" on your browser make sure ip address is correct to implement on this link to be type in browser.
 
 For example my ip address of camera webcame is   "http://10.115.163.241:8080" so, after running script on linux type "http://10.115.163.241:5050/video_feed" on your browser to see detected output 
+
 That project's real time object detection is may be  slow it's depends on your android phone, internet speed,also the path of serving/taking detection is long so,it is one reason for slow output/detection 
