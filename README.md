@@ -4,8 +4,9 @@
 This project enables **real-time object detection using YOLOv8** on an Android phone with an IP camera. It sets up an environment in **Linux (inside Termux)** and provides an easy-to-use interface for real-time detection and streaming via a web browser.  
 
 
-## **🎥 Practical Implementation Video**  
-Watch the real-time object detection setup and execution in action:  
+## **👁️‍🗨️ Practical Implementation Video**  
+Watch the real-time object detection setup and execution in action:
+
 [![RTOD-yv8 YouTube Video](https://img.youtube.com/vi/Z2IPboIIq9U/0.jpg)](https://youtu.be/Z2IPboIIq9U)  
 
 ---
