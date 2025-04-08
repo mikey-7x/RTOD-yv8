@@ -32,6 +32,11 @@ Once inside your Linux OS, open a terminal and run the following command:
 ```sh
 bash yolov8.sh
 ```
+OR
+```sh
+./yolov8.sh
+```
+
 This script will:  
 ✔ Update & upgrade system packages  
 ✔ Install Python, dependencies, and necessary libraries  
@@ -43,6 +48,10 @@ To begin real-time object detection, run:
 ```sh
 bash mikey.sh
 ```
+OR
+```sh
+./mikey.sh
+```
 - It will **ask for your IP camera address** (which you get from the IP Webcam app on Play Store).  
 - After entering the IP, it will start detecting objects in real time.  
 
@@ -51,17 +60,17 @@ bash mikey.sh
 ## **🎥 Viewing the Live Detection Output**  
 
 Once the script is running, open your web browser and **type the following URL**:  
-```
+
 http://your-ip:5050/video_feed
-```
+
 For example, if your IP **camera stream is**:  
-```
+
 http://10.115.163.241:8080
-```
+
 Then to **view the detected output**, go to:  
-```
+
 http://10.115.163.241:5050/video_feed
-```
+
 Make sure your **IP is correct** when typing the link in the browser.  
 
 ---
