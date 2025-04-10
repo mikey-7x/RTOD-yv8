@@ -52,7 +52,11 @@ OR
 ```sh
 ./mikey.sh
 ```
-- It will **ask for your IP camera address** (which you get from the IP Webcam app on Play Store).  
+- It will **ask for your IP camera address** (which you get from the IP Webcam app on Play Store).
+- make sure after typing/pasting ip address,end of ip address type "/video"
+
+**(for example my ip is "http://10.115.163.241:8080" then past "http://10.115.163.241:8080/video")**
+
 - After entering the IP, it will start detecting objects in real time.  
 
 ---
