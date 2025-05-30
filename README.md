@@ -31,13 +31,13 @@ Watch the real-time object detection setup and execution in action:
 Once inside your Linux OS, open a terminal and run the following command:  
 ```sh
 sudo apt install wget
-https://github.com/mikey-7x/RTOD-yv8.git
+wget https://github.com/mikey-7x/RTOD-yv8.git
 bash yolov8.sh
 ```
 OR
 ```sh
 sudo apt install wget
-https://github.com/mikey-7x/RTOD-yv8.git
+wget https://github.com/mikey-7x/RTOD-yv8.git
 ./yolov8.sh
 ```
 
