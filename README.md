@@ -29,17 +29,17 @@ Watch the real-time object detection setup and execution in action:
 
 ### **Step 2: Run the Setup Script**  
 Once inside your Linux OS, open a terminal and run the following command:  
-```sh
-sudo apt install git wget
-git clone https://github.com/mikey-7x/RTOD-yv8.git
-cd RTOD-yv8
-bash yolov8.sh
+
 ```
-OR
-```sh
 sudo apt install git wget
+```
+```
 git clone https://github.com/mikey-7x/RTOD-yv8.git
+```
+```
 cd RTOD-yv8
+```
+```
 ./yolov8.sh
 ```
 
