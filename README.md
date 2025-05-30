@@ -37,6 +37,9 @@ sudo apt install git wget
 git clone https://github.com/mikey-7x/RTOD-yv8.git
 ```
 ```
+chmod +x RTOD-yv8
+```
+```
 cd RTOD-yv8
 ```
 ```
