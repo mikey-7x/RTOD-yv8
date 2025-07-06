@@ -103,3 +103,6 @@ This project is open-source and free to use for educational and privacy purposes
 
 ## **📜 Credits**  
 Developed by **[mikey-7x](https://github.com/mikey-7x)** 🚀🔥  
+
+
+[other repository](https://github.com/mikey-7x?tab=repositories)
