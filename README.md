@@ -7,7 +7,7 @@
 > - This work is for educational and non-commercial purposes only.
 > - Do not use, copy, or redistribute for profit. Do not claim as your own.
 
-# RTOD-yv8
+# ☘️RTOD-yv8
 
 **Real-Time Object Detection using YOLOv8 (RTOD-yv8) & IP Camera on Android**  
 
