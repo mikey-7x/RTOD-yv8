@@ -8,7 +8,8 @@
 > - Do not use, copy, or redistribute for profit. Do not claim as your own.
 
 # RTOD-yv8
-# **Real-Time Object Detection using YOLOv8 (RTOD-yv8) & IP Camera on Android**  
+
+**Real-Time Object Detection using YOLOv8 (RTOD-yv8) & IP Camera on Android**  
 
 This project enables **real-time object detection using YOLOv8** on an Android phone with an IP camera. It sets up an environment in **Linux (inside Termux)** and provides an easy-to-use interface for real-time detection and streaming via a web browser.  
 
