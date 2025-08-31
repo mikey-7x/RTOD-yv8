@@ -1,3 +1,9 @@
+# RTOD-yv8: Real-Time Object Detection using YOLOv8 on Android via Termux
+# © 2025 mikey-7x
+# Licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+# This work is for educational and non-commercial purposes only.
+# Do not use, copy, or redistribute for profit. Do not claim as your own.
+
 # RTOD-yv8
 # **Real-Time Object Detection using YOLOv8 (RTOD-yv8) & IP Camera on Android**  
 
