@@ -97,7 +97,16 @@ Make sure your **IP is correct** when typing the link in the browser.
 
 ## **📜 License**
 
-This project is open-source and free to use for educational and privacy purposes. 🚀
+© 2025 mikey-7x  
+
+This project **RTOD-yv8 (Real-Time Object Detection using YOLOv8 on Android via Termux)**  
+is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).**
+
+- ✅ Allowed: Personal use, research, academic and learning purposes.  
+- ❌ Not Allowed: Commercial use, selling, redistribution, or claiming this project as your own.  
+- ❌ Not Allowed: Creating derivative works or modified distributions.  
+
+For the full license text, see the [LICENSE](./LICENSE) file.
 
 ---
 
