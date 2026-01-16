@@ -123,13 +123,13 @@ We have introduced a new, highly optimized version of the detection script desig
 The new script (`rtod_v2.sh`) auto-detects your OS (including `pkg` for Termux and `xbps` for Void Linux) and handles dependencies automatically.
 
 ```bash
-# 1. Download the optimized script
-wget -O rtod_v2.sh [https://raw.githubusercontent.com/mikey-7x/RTOD-yv8/main/rtod_v2.sh](https://raw.githubusercontent.com/mikey-7x/RTOD-yv8/main/rtod_v2.sh)
+wget https://raw.githubusercontent.com/mikey-7x/RTOD-yv8/refs/heads/main/rtod_v2.sh
+chmod +x rtod_v2.sh
 ```
 
 # 3. Run
 ```
-./rtod_v2.sh
+./start-detect
 ```
 
 ---
