@@ -125,6 +125,8 @@ The new script (`rtod_v2.sh`) auto-detects your OS (including `pkg` for Termux a
 ```bash
 wget https://raw.githubusercontent.com/mikey-7x/RTOD-yv8/refs/heads/main/rtod_v2.sh
 chmod +x rtod_v2.sh
+./rtod_v2.sh
+
 ```
 
 # 3. Run
