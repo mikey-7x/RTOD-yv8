@@ -105,6 +105,34 @@ Make sure your **IP is correct** when typing the link in the browser.
 
 ---
 
+## ⚡ v2.0 Update:Low Latency Engine
+
+We have introduced a new, highly optimized version of the detection script designed specifically for **Termux (Android)** and **ubuntu**.
+
+### 🆚 v1 vs v2 Comparison
+
+| Feature | v1 (Original) | v2 (Recommended) |
+| :--- | :--- | :--- |
+| **Latency Strategy** | Standard Queue (Accumulates lag) | **Zero-Lag Buffer** (Always fresh frames) |
+| **Stream Engine** | Basic OpenCV | **Smart Fallback** (MJPEG Parser ➔ Snapshot ➔ FFmpeg) |
+| **Performance** | High CPU (Flask overhead) | **Optimized** (Raw HTTP + Threaded) |
+| **Compatibility** | Debian/Ubuntu only | **Termux, Void Linux, Debian, Ubuntu** |
+
+### 🛠️ Quick Start (v2)
+
+The new script (`rtod_v2.sh`) auto-detects your OS (including `pkg` for Termux and `xbps` for Void Linux) and handles dependencies automatically.
+
+```bash
+# 1. Download the optimized script
+wget -O rtod_v2.sh [https://raw.githubusercontent.com/mikey-7x/RTOD-yv8/main/rtod_v2.sh](https://raw.githubusercontent.com/mikey-7x/RTOD-yv8/main/rtod_v2.sh)
+```
+
+# 3. Run
+```
+./rtod_v2.sh
+```
+
+---
 ## **📜 License**
 
 © 2025 mikey-7x  
